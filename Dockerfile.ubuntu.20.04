@@ -1,0 +1,5 @@
+ARG AARCH=arm64v8
+FROM ${AARCH}/ubuntu:20.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
